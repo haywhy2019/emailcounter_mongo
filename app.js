@@ -26,5 +26,5 @@ mongoose
 
 
 
-var port = process.env.port  || 8080
-app.listen(port, () => console.log(`connected ${port}`));
+var PORT = process.env.PORT  || 8080
+app.listen(port, () => console.log(`connected ${PORT}`));
