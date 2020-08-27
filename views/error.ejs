@@ -1,0 +1,16 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400" rel="stylesheet">
+<link rel="stylesheet" href="/app.css">
+
+<div class="flex-container">
+    <div class="container">
+        <h1>THANK YOU</h1>
+        <p class="lead">You've been previously addd to our mailing list. </br>
+            enter an unregistered emai to join <strong class="num"><%= count %></strong> others on our waitlist.</br> We are 100% not a cult. </p>
+        <form method="POST" action='/register'>
+            <input type="text" class="form"
+            name='email'
+              placeholder="Enter Your Email">
+            <button>Join Now</button>
+        </form>
+    </div>
+</div>    
